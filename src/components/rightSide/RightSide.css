@@ -1,0 +1,22 @@
+.RightSide {
+    padding: 10px 10px;
+}
+
+.RightSide .search {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.RightSide .search img {
+    width: 20px;
+    height: 20px;
+}
+
+.RightSide .recentMarks h3 {
+    margin-left: 10px;
+}
+

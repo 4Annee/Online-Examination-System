@@ -1,0 +1,101 @@
+nav { 
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 16rem;
+    background-color: var(--bg-nav);
+    transition: var(--transition); 
+    overflow: hidden;
+}
+
+nav .logo {
+    min-width: 45px;
+    padding: 10px;
+}
+
+nav .logo img {
+    width: 60px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.nav-items {
+    position: relative;
+    margin-top: 40px;
+    padding: 0 20px;
+}
+
+.nav-items .nav-links li a {
+    display: flex;
+    align-items: center;
+    height: 66px;
+    border-radius: 6px;
+    position: relative;
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+
+
+.nav-items .nav-links img {
+    width: 25px;
+    margin-right: 15px;
+}
+
+.nav-items .nav-links .nav-link-name {
+    color: var(--third-color);
+} 
+
+nav .user-panel {
+    position: relative;
+    margin: 15px;
+    background-color: var(--secondary-color);
+    padding: 17px;
+    border-radius: 10px;
+    margin-top: 40px;
+    box-shadow: 1px 1px 3px 0px rgba(0,0,0,0.75);
+}
+
+nav .user-panel .profile {
+    width: 45px;
+    position: relative;
+    margin-left: 70px;
+}
+
+nav .user-panel h4 {
+    position: relative;
+    margin-left: 53px;
+    margin-top: 5px;
+}
+
+nav .user-panel h5 {
+    position: relative;
+    margin-left: 67px;
+    margin-top: 5px;
+    color: var(--third-color);
+}
+
+nav .user-panel .view-profile {
+    padding: 8px 32px;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 10px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+nav .user-panel .view-profile:hover {
+    background-color: var(--primary-light-color);
+    transition: var(--transition);
+}
+
+.active {
+    background-color: var(--glass);
+    margin-left: 0;
+}
+
+.active .nav-link-name {
+    color: var(--primary-color);
+}

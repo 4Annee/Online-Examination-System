@@ -1,0 +1,17 @@
+.rowTable:hover {
+    background-color: #9eabe4;
+    background-image: linear-gradient(315deg, #9eabe4 72%, #77eed8 20%);   
+    cursor: pointer;
+}
+
+.rowTable:hover .cellTable {
+    color: white;
+}
+
+.rowTable:hover .cellTable:first-child {
+    color: black;
+}
+
+.rowTable .cellTable {
+    padding: 15px;
+}

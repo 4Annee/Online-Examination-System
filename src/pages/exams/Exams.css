@@ -1,0 +1,46 @@
+.Exams {
+    grid-column-start: 2;
+    display: grid;
+    grid-template-columns: 60rem 50rem;
+    padding-left: 20px;
+}
+
+.Exams .middle h1 {
+    position: relative;
+    margin: 15px;
+}
+
+.Exams .middle .top {
+    display: flex;
+    justify-content: flex-start;
+    
+}
+
+.Exams .middle .top .examDetails {
+    margin-left: 20px;
+    margin-top: 7px;
+}
+
+.Exams .middle .top .examDetails .contenu {
+    display: inline;
+}
+
+.Exams .middle .top .examDetails .contenu p {
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+
+.Exams .middle .top .examDetails .contenu a {
+    color: #95A5A6;
+}
+
+.Exams .middle .bottom {
+    display: grid;
+    grid-template-columns: 30rem 30rem;
+    gap: 40px;
+    margin-top: 40px;
+    margin-left: 15px;
+}
+
+
+
