@@ -1,13 +1,50 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+body{
+    background-color: rgb(229, 229, 247);
+}
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+:root {
+    --bg-color: #F8F9F9;
+    --white-color: #fff;
+    --black-color: #000;
+    --bg-nav: #F0F0F0;
+    --primary-color: #111D4A;
+    --primary-light-color: #26356C;
+    --secondary-color: #FFF8F0;
+    --third-color: #757171;
+    --transition: all 300s ease;
+    --glass: rgba(255, 255, 255, 0.54);
+
+}
+
+.App {
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: 16rem auto 20rem;
+}
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    background: var(--bg-color);
+    color: var(--black-color); 
+    min-height: 100vh;
+}
+/* ========== GENERAL STYLES ============= */
+
+h1, h2, h3, h4, h5, h6 {
+    font-weight: 500;
+}
+
+h1 {
+    font-size: 2em;
+
 }
