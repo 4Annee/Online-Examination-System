@@ -1,0 +1,19 @@
+.Exams {
+    height: 675px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-left: 20px;
+}
+
+.Exams .top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.Exams .top a {
+    font-size: 14px;
+    color: #70BDCE;
+}

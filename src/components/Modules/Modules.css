@@ -1,0 +1,39 @@
+.Modules {
+    height: 675px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #fff;
+}
+
+.Modules .module {
+    margin-top: 15px;
+    margin-left: 25px;
+    background: rgba(255, 255, 255, 10.17);
+    border-radius: 16px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(0px);
+    -webkit-backdrop-filter: blur(0px);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+    width: 382px;
+    height: 120px;
+    padding: 15px;
+}
+
+.Modules .module h5 {
+    margin-bottom: 18px;
+}
+
+.Modules .module p {
+    margin-left: 10px;
+}
+
+.Modules .module p:nth-child(3) {
+    color: #868686;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+.Modules .first {
+    margin-top: 65px;
+}
+

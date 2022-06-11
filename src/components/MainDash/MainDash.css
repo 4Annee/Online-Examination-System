@@ -1,0 +1,8 @@
+.MainDash {
+    grid-column-start: 2;
+}
+
+.MainDash h1 {
+    position: relative;
+    margin: 15px;
+}

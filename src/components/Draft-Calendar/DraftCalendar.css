@@ -1,0 +1,29 @@
+@import url("https://cdn.syncfusion.com/ej2/material.css");
+
+.DraftCalendar .drafts, .DraftCalendar .calendar {
+    height: 330px;
+    border-radius: 8px;
+    background-color: #fff;
+    margin-left: 20px;
+    margin-right: 70px;
+    margin-bottom: 15px;
+}
+
+.DraftCalendar .drafts {
+    padding: 20px;
+}
+
+.DraftCalendar .calendar .e-calendar {
+    background: transparent;
+    margin-left: 10px;
+    border-radius: 8px;
+    border: none;
+}
+
+.DraftCalendar .calendar .e-calendar .e-footer-container button {
+    color: #70BDCE;
+}
+
+.DraftCalendar .calendar .e-calendar .e-cell:focus, .DraftCalendar .calendar .e-calendar .e-day:focus {
+    background-color: #70BDCE;
+}
