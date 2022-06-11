@@ -1,0 +1,62 @@
+.exam-container
+{
+    margin-top:0px;
+    margin-left: 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 8rem auto;
+    border-radius: 10px;
+    height: 100vh;
+    background-color:white;
+}
+nav
+{
+
+    top: 0;
+    left: 0;
+    height: 100%;
+    display: flex;
+    justify-content:center;
+    background-color: rgb(229, 229, 247);
+}
+
+nav .logo 
+{
+    min-width: 45px;
+    padding: 10px;
+    
+    
+}
+
+nav .logo img 
+{
+    width: 70px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.head
+{
+    grid-template-rows: 8rem auto;
+    padding: 10px;
+
+
+}
+h3{
+    color: black;
+    margin-left: 30px;
+}
+.examTitle{
+    float: right;
+    margin-right: 60px;
+    margin-top: -25px;
+   
+}
+hr { 
+    display: block; 
+    margin-before: 0.5em; 
+    margin-after: 0.5em; 
+     overflow: hidden; 
+     border-style: inset;
+     width: 92%;
+     margin-left: 28px;
+    border-width: 1px;}
