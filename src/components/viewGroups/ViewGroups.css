@@ -1,0 +1,55 @@
+.viewGroups {
+    grid-column-start: 2;
+}
+
+.viewGroups h1 {
+    margin: 15px;
+}
+
+.viewGroups .MuiBox-root {
+    margin-top: 25px;
+}
+
+.viewGroups .MuiBox-root .MuiButtonBase-root {
+    margin-right: 15px;
+}
+
+.viewGroups .groups .group {
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+    height: 78px;
+    padding: 20px;
+    margin-right: 40px;
+    border-radius: 8px;
+    background-color: #F8F9F9;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.viewGroups .groups .group .left {
+    display: flex;
+    justify-content: start;
+    margin-left: 0px;
+}
+
+.viewGroups .groups {
+    margin-top: 35px;
+}
+
+.viewGroups .groups .group {
+    margin-left: 30px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+
+.viewGroups .groups .group .groupP {
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.viewGroups .groups .group .css-12120pv-MuiAvatar-root p {
+    font-size: 14px;
+    color: #000000;
+}

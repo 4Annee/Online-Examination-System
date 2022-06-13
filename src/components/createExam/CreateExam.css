@@ -1,0 +1,7 @@
+.CreateExam {
+    grid-column-start: 2;
+}
+
+.CreateExam h1 {
+    margin: 15px;
+}

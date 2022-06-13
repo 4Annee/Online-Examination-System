@@ -7,15 +7,7 @@
     background-color: var(--bg-nav);
     transition: var(--transition); 
     box-sizing: border-box;
-    padding: 10px 15px;
-}
-
-.sidebar.inactive {
-    width: 100px;
-}
-
-.sidebar .top {
-    position: relative;
+    padding: 10px 3px;
 }
 
 .sidebar .logo {
@@ -23,7 +15,8 @@
     width: 40px;
     height: 40px;
     overflow: hidden;
-    display: inline-block;
+    margin-left: 50px;
+    margin-top: 10px;
 }
 
 .sidebar .logo img {
@@ -31,22 +24,38 @@
     max-height: 100%;
 }
 
-.sidebar .top .toggle-btn {
+.nav-items {
     position: relative;
+    margin-top: 60px;
+    padding: 0;
+}
+
+.nav-items .nav-links li:hover {
+    background-color: var(--bg-color);
+    border-radius: 8px;
+}
+
+.nav-items .nav-links li a {
+    display: flex;
+    align-items: center;
+    height: 66px;
+    border-radius: 6px;
+    position: relative;
+    padding: 0 15px;
+    margin-bottom: 10px;
+}
+
+
+.nav-items .nav-links img {
     width: 25px;
-    height: 25px;
-    overflow: hidden;
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%);
+    margin-right: 15px;
 }
 
-.sidebar.inactive .top .toggle-btn {
-    right: -40px;
-}
+.nav-items .nav-links .nav-link-name {
+    color: var(--third-color);
+} 
 
-.sidebar .top .toggle-btn img {
-    max-width: 100%;
-    max-height: 100%;
+.active {
+    background-color: var(--bg-color);
+    margin-left: 0;
 }
