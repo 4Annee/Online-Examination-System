@@ -1,0 +1,37 @@
+.create-container
+{
+    margin-top:0px;
+    margin-left: 0px;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 8rem auto;
+    border-radius: 10px;
+    height: 200vh;
+    background-color:rgba(241, 241, 241, 0.918);
+}
+.title{
+    display: flex;
+    justify-content: center;
+}
+.result{
+    grid-template-rows: 8rem auto;
+    padding: 10px;
+    margin: 50px auto 20px;
+    width: 95%;
+    max-width: 900px;
+    height:700px;
+    box-shadow: 0 5px 5px 0 rgba(0, 0, 0, 0.2), 0 7px 15px 0 rgba(0, 0, 0, 0.2);
+    position: relative;
+    border-radius: 10px;
+    display: grid;
+    background-color: rgb(255, 255, 255);
+}
+.student{
+    margin-top:-100px;
+   
+    width: 90%;
+   
+    margin-left: 30px;
+    display: flex;
+    justify-content: space-between;
+}

@@ -6,7 +6,7 @@ function headExam() {
   return (
     <div className='head'>
       <div className='ExamName'> 
-        <h3> Exam :</h3>
+        <h3> Exam </h3>
         <p className='examTitle'>Adminstartion Base De Donnée</p>
         <hr></hr>
         <h3> Question :</h3>
