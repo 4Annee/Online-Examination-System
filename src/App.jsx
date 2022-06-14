@@ -6,6 +6,7 @@ import Exam from './Component-exam/Exam';
 import {CreateCodeRunning} from './Services/CodeRunningService';
 import {getProgrammingLanguages} from './Services/ProgrammingLanguagesService';
 import {CreateQuestionSkeletone,UpdateQuestionSkeletone,DeleteQuestionSkeletone} from './Services/QuestionSkeleton.js';
+import Qcm from './Component-qcm/Qcm';
 function app() {
   
   return (
@@ -15,6 +16,8 @@ function app() {
       <Route path="/" element={<Form/>} />
       <Route path="/code" element={<CodEditor/>} />
       <Route path='/exam' element={<Exam/>}/>
+      <Route path='/qcm' element={<Qcm/>}/>
+
 
       
     </Routes>
