@@ -1,0 +1,44 @@
+.marks {
+    background-color: var(--bg-nav);
+    margin: 15px 5px 0 10px;
+    padding: 15px 15px;
+    border-radius: 8px;
+}
+
+.marks .mark {
+    margin-bottom: 20px;
+}
+
+.marks .mark h3 {
+    margin-left: 12px;
+    margin-bottom: 2px;
+}
+
+.marks .mark .markValue {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 15px;
+    margin-left: 12px;
+    margin-bottom: 5px;
+}
+
+.marks .mark .markValue p {
+    font-weight: bold;
+    color: #95A5A6;
+}
+
+.marks .mark .moduleTime {
+    align-items: center;
+    margin-left: 12px;
+}
+
+.marks .mark #date {
+    color: rgb(165, 165, 165);
+    margin-left: 195px;
+}
+
+.marks .mark img {
+    width: 10px;
+    height: 10px;
+}

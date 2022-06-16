@@ -1,11 +1,12 @@
-/*nav {
-
+nav { 
+    position: fixed;
     top: 0;
     left: 0;
-    height: 100%;
-    width: 250px;
+    height: 100vh;
+    width: 16rem;
     background-color: var(--bg-nav);
-    transition: var(--transition);
+    transition: var(--transition); 
+    overflow: hidden;
 }
 
 nav .logo {
@@ -21,7 +22,7 @@ nav .logo img {
 
 .nav-items {
     position: relative;
-    margin-top: 50px;
+    margin-top: 40px;
     padding: 0 20px;
 }
 
@@ -29,7 +30,12 @@ nav .logo img {
     display: flex;
     align-items: center;
     height: 66px;
+    border-radius: 6px;
+    position: relative;
+    padding: 0 15px;
+    margin-bottom: 10px;
 }
+
 
 .nav-items .nav-links img {
     width: 25px;
@@ -38,12 +44,8 @@ nav .logo img {
 
 .nav-items .nav-links .nav-link-name {
     color: var(--third-color);
-}
+} 
 
-.nav-items .nav-links .nav-link-name.active {
-    color: var(--primary-color);
-    font-weight: bold;
-}
 
 nav .user-panel {
     position: relative;
@@ -86,21 +88,15 @@ nav .user-panel .view-profile {
 }
 
 nav .user-panel .view-profile:hover {
-    background-color: var(--primary--color);
+    background-color: var(--primary-light-color);
     transition: var(--transition);
 }
 
-.nav-items .nav-links li a:hover .nav-link-name {
-    font-size: 18px;
-    transition: var(--transition);
+.active {
+    background-color: var(--glass);
+    margin-left: 0;
 }
 
-.nav-items .nav-links li a:hover img {
-    transform: scale(1.02);
-    transition: var(--transition);
+.active .nav-link-name {
+    color: var(--primary-color);
 }
-
-
-
-
-*/

@@ -1,6 +1,9 @@
+import Editor from '@monaco-editor/react';
 import {useState,useEffect,useRef} from 'react';
 import {flushSync} from 'react-dom';
-function Question({question,totalQuestions,currentQuestion,setAnswer})
+import {Link} from 'react-router-dom'
+
+function Question({question,totalQuestions,currentQuestion,setAnswers})
 {
     const[selectedOption,setSelectedOption] = useState(null);
     const timer = useRef(null);
@@ -11,7 +14,7 @@ function Question({question,totalQuestions,currentQuestion,setAnswer})
             clearTimeout(timer.current);
         }
         flushSync(()=>{
-            setAnswer(selectedOption);
+            setAnswers(selectedOption);
         });
         setSelectedOption(null);
     }
@@ -53,6 +56,7 @@ function Question({question,totalQuestions,currentQuestion,setAnswer})
                         })
                     }
                 </div>
+                
             </div>
             <div className='control'>
                 <button className='btn-join' onClick={goToNextQuestion}> next</button>

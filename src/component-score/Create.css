@@ -4,19 +4,19 @@
     margin-left: 0px;
     width: 100%;
     display: grid;
-    grid-template-columns: 8rem auto;
+    grid-template-columns: 16rem 75rem;
     border-radius: 10px;
     height: 200vh;
     background-color:rgba(241, 241, 241, 0.918);
 }
 .title{
-    display: flex;
-    justify-content: center;
+
+    margin-left: 360px;
 }
 .result{
     grid-template-rows: 8rem auto;
     padding: 10px;
-    margin: 50px auto 20px;
+    margin: 50px 100px 20px;
     width: 95%;
     max-width: 900px;
     height:700px;

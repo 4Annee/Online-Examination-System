@@ -3,7 +3,12 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@devexpress/dx-react-scheduler": "^3.0.3",
+    "@devexpress/dx-react-scheduler-material-ui": "^3.0.3",
+    "@emotion/react": "^11.9.3",
+    "@emotion/styled": "^11.9.3",
     "@monaco-editor/react": "^4.4.5",
+    "@mui/material": "^5.8.4",
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.2.0",
     "@testing-library/user-event": "^13.5.0",

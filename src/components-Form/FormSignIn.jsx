@@ -17,7 +17,7 @@ const FormSignIn = () => {
                   <input type="password" name='password' className='form-input' placeholder='Enter your password'></input>
                   
               </div>
-              <button className='form-input-btn' type='submit'>Sign in</button>
+              <button className='form-input-btn' type='submit'><a href="/student">Sign in</a></button>
               <span className='form-input-request'>You don't have an account ? <a href="#">request one</a></span>
               
           </form>

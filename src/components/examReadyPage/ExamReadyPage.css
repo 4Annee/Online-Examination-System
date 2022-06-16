@@ -1,0 +1,159 @@
+.ExamsContainer{
+    display: grid;
+    grid-template-columns: 16rem 16rem;
+}
+
+.ExamReadyPage {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 16rem;
+}
+
+.ExamReadyPage .middle h1 {
+    position: relative;
+    margin: 15px;
+    margin-bottom: 55px;
+}
+
+.ExamReadyPage .middle .name, .ExamReadyPage .middle .desc, .ExamReadyPage .middle .rules {
+    margin-top: 15px;
+    margin-bottom: 35px;
+    margin-left: 15px;
+    width: 100%;
+}
+
+.ExamReadyPage .middle .name p {
+    margin: 15px;
+    background-color: #deebdd;
+    background-image: linear-gradient(315deg, #deebdd 0%, #bbdbbe 74%);
+    padding: 15px 20px;
+    border-radius: 8px;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+
+.ExamReadyPage .middle .desc p {
+    margin: 15px;
+}
+
+.ExamReadyPage .middle .rules .rule {
+    display: flex;
+    align-items: center;
+    margin-top: 15px;
+    padding-left: 25px;
+}
+
+.ExamReadyPage .middle .rules .rule img {
+    width: 25px;
+    height: 25px;
+}
+
+.ExamReadyPage .middle .rules .rule p {
+    background-color: #EEEDE7;
+    padding: 10px 20px;
+    border-radius: 8px;
+    font-size: 15px;
+    margin-left: 15px;
+    width: 93%;
+}
+
+.ExamReadyPage .right {
+    padding: 10px 10px;
+    margin-left: 60px;
+}
+
+.ExamReadyPage .right .search {
+    display: flex;
+    justify-content: flex-end;
+    gap: 5px;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 10px;
+}
+
+.ExamReadyPage .right .search img {
+    width: 20px;
+    height: 20px;
+    margin-right: 600px;
+}
+
+.ExamReadyPage .right .ExamSummary {
+    margin-top: 80px;
+    width: 350px;
+    height: 560px;
+    background-color: #EEEDE7;
+    padding: 15px 20px;
+    border-radius: 8px;
+}
+
+.ExamReadyPage .right .ExamSummary h3 {
+    margin-bottom: 20px;
+}
+
+.ExamReadyPage .right .ExamSummary .elements, .ExamReadyPage .right .ExamSummary .year {
+    position: relative;
+    margin-bottom: 20px;
+    margin-left: 7px;
+}
+
+.ExamReadyPage .right .ExamSummary .elements .qst, .ExamReadyPage .right .ExamSummary .year {
+    display: flex;
+    align-items: center;
+}
+
+.ExamReadyPage .right .ExamSummary .year {
+    gap: 20px;
+}
+
+.ExamReadyPage .right .ExamSummary .elements .question {
+    margin: 10px;
+    background-color: #deebdd;
+    background-image: linear-gradient(315deg, #deebdd 0%, #bbdbbe 74%);
+    padding: 5px 13px;
+    width: 15%;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.ExamReadyPage .right .ExamSummary .elements #timeStart,
+.ExamReadyPage .right .ExamSummary .elements #timeEnd {
+    margin: 10px;
+    background-color: #deebdd;
+    background-image: linear-gradient(315deg, #deebdd 0%, #bbdbbe 74%);
+    padding: 5px 13px;
+    width: 20%;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.ExamReadyPage .right .ExamSummary .year .question {
+    background-color: #deebdd;
+    background-image: linear-gradient(315deg, #deebdd 0%, #bbdbbe 74%);
+    padding: 3px 10px;
+    font-weight: bold;
+    border-radius: 5px;
+    width: 14%;
+}
+
+.ExamReadyPage .right .ExamSummary .year #group {
+    width: 20%;
+}
+
+.ExamReadyPage .right .btn {
+    margin: 30px 70px;
+    display: block;
+}
+
+.ExamReadyPage .right .btn button {
+    padding: 7px 92px;
+    margin: 10px 0px;
+    border-radius: 5px;
+    background-color: var(--primary-color);
+    color: var(--white-color);
+    letter-spacing: 1px;
+    cursor: pointer;
+}
+
+.ExamReadyPage .right .btn button a {
+    color: white;
+}

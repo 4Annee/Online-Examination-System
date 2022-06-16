@@ -1,11 +1,13 @@
 import React from 'react'
 import Nav from '../Component-exam/nav';
+import SideBar from '../components/navbar/SideBar';
 import './Create.css';
 
 function Create() {
   return (
       <div className='create-container'>
-    <Nav/>
+    <SideBar/>
+    <div>
       <div className='head'>
       <div className='ExamName'> 
         <h3> Show result</h3>
@@ -82,6 +84,7 @@ function Create() {
           <div> <a href='#'> See more</a></div>
        </div>
        
+    </div>
     </div>
     </div>
     

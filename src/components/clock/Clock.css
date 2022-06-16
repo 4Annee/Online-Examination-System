@@ -1,0 +1,31 @@
+.clock {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9eabe4;
+    background-image: linear-gradient(315deg, #9eabe4 0%, #77eed8 74%);
+    height: 170px;
+    border-radius: 8px;
+}
+
+.clock section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem;
+}
+
+.clock section p {
+    font-size: 40px;
+}
+
+.clock span {
+    font-weight: 600;
+    font-size: 17px;
+}
+
+.clock section small {
+    color: rgb(88, 88, 88);
+}

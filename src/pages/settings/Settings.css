@@ -1,0 +1,9 @@
+.sst{
+    display:grid;
+    grid-template-columns: 16rem 75rem;
+}
+.settings {
+    grid-column-start: 2;
+    margin-left:20px;
+    margin-top: 20px;
+}

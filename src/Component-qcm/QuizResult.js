@@ -1,11 +1,16 @@
 import React from 'react'
+import Button from '@mui/material/Button';
 
 function QuizResult({result,retry}) {
   return (
-    <div className='result-screen'>
-        <h2>Result: {result.percentage}</h2>
-        <p>Selected {result.correct} correct options out of {result.total} questions</p>
-        <button onClick={retry}>Retry</button>
+    <div className="join-screen">
+       <p>Are You Sure you want to submit your answers?</p>
+       <div>
+       <Button  variant="outlined"><a href="/qcm">Back</a></Button>
+        <Button  variant="contained"><a href="/student">Submit</a></Button>
+      </div>
+       
+     
     </div>
   )
 }

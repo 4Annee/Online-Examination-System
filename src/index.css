@@ -1,6 +1,4 @@
-body{
-    background-color: rgb(229, 229, 247);
-}
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600&display=swap');
 
 * {
@@ -26,11 +24,7 @@ body{
 
 }
 
-.App {
-    display: grid;
-    overflow: hidden;
-    grid-template-columns: 16rem auto 20rem;
-}
+
 
 body {
     font-family: 'Montserrat', sans-serif;
