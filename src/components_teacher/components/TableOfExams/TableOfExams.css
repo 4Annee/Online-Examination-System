@@ -1,0 +1,16 @@
+.rowTable:hover {
+    background-color: #E8E8E8;
+    cursor: pointer;
+}
+
+.rowTable:hover .cellTable {
+    color: white;
+}
+
+.rowTable:hover .cellTable:first-child {
+    color: black;
+}
+
+.rowTable .cellTable {
+    padding: 20px;
+}

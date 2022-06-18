@@ -1,0 +1,9 @@
+.Lang {
+    margin-top: 20px;
+    margin-left: 30px;
+    width: 700px;
+}
+
+.Lang .MuiOutlinedInput-root {
+    width: 100%;
+}

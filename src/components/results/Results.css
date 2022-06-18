@@ -1,0 +1,7 @@
+.results {
+    grid-column-start: 2;
+}
+
+.results h1 {
+    margin: 15px;
+}

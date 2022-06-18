@@ -1,0 +1,9 @@
+.MainDashTeacher {
+    grid-column-start: 2;
+    
+}
+
+.MainDashTeacher h1 {
+    position: relative;
+    margin: 15px;
+}

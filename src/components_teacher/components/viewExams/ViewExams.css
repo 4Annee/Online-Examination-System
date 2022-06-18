@@ -1,0 +1,41 @@
+.ViewExamsContainer {
+    display: grid;
+    grid-template-columns: 12rem auto;
+}
+
+.ViewExams {
+    grid-column-start: 2;
+}
+
+.ViewExams .top {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ViewExams .top {
+    margin-top: 15px;
+    margin-left: 15px;
+}
+
+.ViewExams .top button a {
+    color: #000;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.ViewExams .top button {
+    background-color: #70BDCE;
+    margin-right: 20px;
+    height: 40px;
+    padding: 0 30px;
+    margin-top: 17px;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+.ViewExams .table {
+    margin-right: 50px;
+    margin-bottom: 20px;
+}

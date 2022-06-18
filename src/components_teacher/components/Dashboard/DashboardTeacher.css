@@ -1,0 +1,5 @@
+.contentTeacher {
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: 12rem auto;
+}

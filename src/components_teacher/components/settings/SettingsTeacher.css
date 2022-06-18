@@ -1,0 +1,12 @@
+.settingsTeacherContainer {
+    display: grid;
+    grid-template-columns: 12rem auto;
+}
+
+.settingsTeacher {
+    grid-column-start: 2;
+}
+
+.settingsTeacher h1 {
+    margin: 15px;
+}

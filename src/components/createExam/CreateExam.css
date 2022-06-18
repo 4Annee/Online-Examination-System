@@ -1,0 +1,72 @@
+.CreateExam {
+    grid-column-start: 2;
+    counter-reset: Serial; 
+}
+
+.CreateExam .top {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.CreateExam h1, .CreateExam h3 {
+    margin: 15px;
+}
+
+.CreateExam .top .MuiButton-root {
+    margin-right: 15px;
+}
+
+.CreateExam .top .MuiButton-root a {
+    color: #1976D2;
+}
+
+.CreateExam #assessmentForm {
+    margin: 50px 15px 15px;
+}
+
+.CreateExam #assessmentForm .assessmentBox {
+    display: flex;
+    justify-content: flex-start;
+    gap: 30px;
+}
+
+.CreateExam #assessmentForm .assessmentBox .inputBox label {
+    font-weight: bold;
+    margin-right: 15px;
+}
+
+.CreateExam #assessmentForm .assessmentBox .inputBox input {
+    width: 270px;
+    padding: 10px;
+    padding-left: 15px;
+    border-radius: 5px;
+    background: rgba(255, 255, 255, 10.17);
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    -webkit-backdrop-filter: blur(0px);
+    backdrop-filter: blur(0px);
+    border: 1px solid rgba(255, 255, 255, 0.28);
+}
+
+.CreateExam .css-1suf56w-MuiButtonBase-root-MuiFab-root {
+    margin-left: 1255px;
+    margin-top: 25px;
+    position: fixed;
+}
+
+.CreateExam .btnSubmit {
+    position: fixed;
+    bottom: 15px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.CreateExam form input[type="submit"] {
+    padding: 15px 45px;
+    background-color: #1976D2;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 8px;
+    cursor: pointer;
+}
+
